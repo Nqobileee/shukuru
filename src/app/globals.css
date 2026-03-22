@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+  
+  --color-shukuru-nude: #E5D9C5;
+  --color-shukuru-beige: #F5F5DC;
+  --color-shukuru-brown-light: #A07855;
+  --color-shukuru-brown: #8B5A2B;
+  --color-shukuru-brown-deep: #3E2723;
+  --color-shukuru-cream: #FAFAEA;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #FFFFFF;
+    color: var(--color-shukuru-brown-deep);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    font-weight: 300;
+  }
+}
