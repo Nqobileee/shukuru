@@ -16,10 +16,7 @@ export function Footer() {
         <div>
           <h3 className="text-sm uppercase tracking-widest mb-6 text-shukuru-nude">Contact Us</h3>
           <ul className="space-y-4 font-light text-shukuru-cream/80">
-            <li className="flex items-start">
-              <MapPin className="w-4 h-4 mr-3 mt-0.5 text-shukuru-nude" />
-              <span>152 Baines Avenue</span>
-            </li>
+            {/* Address removed for cleaner look */}
             <li className="flex items-center">
               <Mail className="w-4 h-4 mr-3 text-shukuru-nude" />
               <a href="mailto:shukuruguesthouse@gmail.com" className="hover:text-white transition-colors">

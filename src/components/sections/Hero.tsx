@@ -31,14 +31,7 @@ export function Hero() {
           className="flex flex-col space-y-8"
         >
           <div className="space-y-4">
-            <motion.h2 
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.5, duration: 1 }}
-              className="text-shukuru-brown-light text-sm uppercase tracking-[0.3em] font-medium"
-            >
-              152 Baines Avenue
-            </motion.h2>
+            {/* Removed address for cleaner look */}
             <h1 className="text-5xl md:text-7xl font-serif text-shukuru-brown-deep leading-[1.1]">
               A Sanctuary <br />
               <span className="italic font-light text-shukuru-brown">of Comfort.</span>

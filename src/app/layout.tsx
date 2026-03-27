@@ -14,7 +14,7 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "Shukuru Guest House | Comfort & Elegance",
-  description: "A luxurious guest house located at 152 Baines Avenue. Experience comfort, privacy, and top-tier amenities.",
+  description: "A luxurious guest house. Experience comfort, privacy, and top-tier amenities.",
 };
 
 import { Header } from "@/components/layout/Header";

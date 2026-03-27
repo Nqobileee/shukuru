@@ -6,7 +6,7 @@ import { Wifi, Sparkles, MapPin, Coffee, Car, ShieldCheck } from "lucide-react";
 const features = [
   { id: 1, title: "High-Speed WiFi", icon: Wifi, desc: "Stay connected with complimentary high-speed internet throughout the property." },
   { id: 2, title: "Daily Housekeeping", icon: Sparkles, desc: "Enjoy a pristine space every day with our dedicated cleaning staff." },
-  { id: 3, title: "Central Location", icon: MapPin, desc: "Conveniently located at 152 Baines Avenue, close to key city attractions." },
+  { id: 3, title: "Central Location", icon: MapPin, desc: "Conveniently located in the city center, close to key attractions." },
   { id: 4, title: "Premium Amenities", icon: Coffee, desc: "In-room tea and coffee stations to start your morning right." },
   { id: 5, title: "Secure Parking", icon: Car, desc: "Safe, gated, and secure parking available for all our guests." },
   { id: 6, title: "24/7 Security", icon: ShieldCheck, desc: "Peace of mind with round-the-clock security and surveillance." },
