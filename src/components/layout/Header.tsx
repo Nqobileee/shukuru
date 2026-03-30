@@ -4,13 +4,19 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-white/80 border-b border-shukuru-nude/30 transition-all duration-300">
       <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
-        {/* Logo left-aligned (now text) */}
+        {/* Logo left-aligned (luxurious text) */}
         <Link href="/" className="flex items-center flex-shrink-0 select-none">
           <span
-            className="text-3xl md:text-4xl font-serif font-extrabold tracking-wide text-shukuru-brown-deep drop-shadow-sm"
-            style={{ letterSpacing: '0.08em', fontFamily: 'Playfair Display, serif' }}
+            className="text-2xl md:text-3xl font-serif font-semibold tracking-[0.12em] text-shukuru-brown-deep"
+            style={{ fontFamily: 'Playfair Display, serif', letterSpacing: '0.12em', fontWeight: 500 }}
           >
-            Shukuru <span className="font-light tracking-tight">Guest House</span>
+            Shukuru
+            <span
+              className="ml-2 text-base md:text-lg font-light tracking-[0.18em] text-shukuru-brown-light"
+              style={{ fontFamily: 'Playfair Display, serif', fontWeight: 300 }}
+            >
+              Guest House
+            </span>
           </span>
         </Link>
 
